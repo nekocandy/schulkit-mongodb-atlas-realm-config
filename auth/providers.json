@@ -1,0 +1,23 @@
+{
+    "anon-user": {
+        "name": "anon-user",
+        "type": "anon-user",
+        "disabled": true
+    },
+    "api-key": {
+        "name": "api-key",
+        "type": "api-key",
+        "disabled": true
+    },
+    "local-userpass": {
+        "name": "local-userpass",
+        "type": "local-userpass",
+        "config": {
+            "confirmEmailSubject": "Confirm your email for Schulkit",
+            "emailConfirmationUrl": "https://schulkit.tech/api/auth/verify",
+            "resetPasswordSubject": "Reset your password for Schulkit",
+            "resetPasswordUrl": "https://schulkit.tech/api/auth/reset"
+        },
+        "disabled": false
+    }
+}
